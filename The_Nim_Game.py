@@ -41,11 +41,11 @@ def play_nim():
     
     piles = [random.randint(5, 10), random.randint(5, 10), random.randint(5, 10)]
     
-    current_turn = input("Which player would like to start? (1 or 2): ")
+    current_turn = int(input("Which player would like to start? (1 or 2): "))
     if current_turn == 1:
-        player_choose = player1
+         player_choose = player1
     elif current_turn == 2:
-        player_choose = player2
+         player_choose = player2
 
     # player_choose = player1
     
