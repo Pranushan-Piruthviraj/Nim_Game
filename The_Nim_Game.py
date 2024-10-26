@@ -111,7 +111,7 @@ def delayed_text(text):
 
 def loading_screen():
     global loading_quotes
-    delayed_text(loading_quotes[random.randint(0,2)])
+    delayed_text(loading_quotes[random.randint(0,4)])
                 
 
 def ai_comment(ai_name, situation):
