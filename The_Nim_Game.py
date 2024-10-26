@@ -1,3 +1,7 @@
+# Pranushan Piruthviraj
+# 2024-10-25
+# The Nim Game
+
 import random
 import time
 
